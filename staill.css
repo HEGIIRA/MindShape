@@ -1,0 +1,220 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f4f8;
+}
+
+.register-page {
+  display: flex;
+  min-height: 100vh;
+}
+
+.left-side {
+  flex: 1;
+  background-color: #e0f7fa;
+  position: relative;
+}
+
+.background-img {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.right-side {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+
+.register-box {
+  text-align: center;
+  max-width: 400px;
+  padding: 2rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.logo {
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.input-field {
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.register-btn {
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.google {
+  background-color: #4285f4;
+  color: white;
+}
+
+.apple {
+  background-color: #000;
+  color: white;
+}
+
+.email {
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+.register-btn:hover {
+  opacity: 0.9;
+}
+
+p {
+  margin: 1rem 0;
+}
+
+a {
+  color: #4285f4;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.cookie-settings {
+  display: block;
+  margin-top: 1rem;
+  font-size: 0.9rem;
+}
+
+
+.register-page {
+  display: flex;
+  min-height: auto;
+  min-width: auto;
+}
+.left-register {
+  flex: 1;
+  background-color: #e0f7fa;
+  position: relative;
+}
+.background-img {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+.right-register {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+.login-box {
+  text-align: center;
+  max-width: 500px;
+  padding: 2rem;
+  border-radius: 8px;
+}
+.logo-register {
+  width: 150px;
+  margin-bottom: 20px;
+}
+.register-box h2 {
+  margin-bottom: 1rem;
+  color: #333;
+}
+.register-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: 2px solid black;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.google {
+  background-color: transparent;
+  color: var(--item-);
+}
+.apple {
+  background-color: transparent;
+  color: var(--item-);
+}
+.email {
+  background-color: transparent;
+  color: var(--item-);
+}
+.login-btn:hover {
+  opacity: 0.9;
+}
+.register p {
+  margin: 2.5rem 0;
+}
+.register a {
+  color: #4285f4;
+  text-decoration: none;
+}
+.register a:hover {
+  text-decoration: underline;
+}
+.cookie-settings {
+  display: block;
+  margin-top: 1rem;
+  font-size: 0.9rem;
+}
+.google:hover {
+  background-color: #2587f9;
+  color: white;
+  transition: all 0.2s ease;
+}
+.apple:hover {
+  background-color: grey;
+  color: white;
+  transition: all 0.2s ease;
+}
+.email:hover {
+  background-color: #f6ce52;
+  color: white;
+  transition: all 0.2s ease;
+}
+.login-btn svg {
+  margin-right: 10px;
+  vertical-align: middle;
+}
+.login-btn.apple:hover svg {
+  fill: white;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.login-btn.google:hover svg {
+  fill: white;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
